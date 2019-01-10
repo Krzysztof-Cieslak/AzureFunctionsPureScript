@@ -1,0 +1,14 @@
+{
+  "name": "azurefunctionspurescript",
+  "version": "1.0.0",
+  "description": "Sample for using PureScript on Azure Functions",
+  "scripts": {
+    "build": "pulp build --skip-entry-point",
+    "package": "bestzip output.zip MyHttpTrigger/* output/* host.json package.json package-lock.json"
+  },
+  "author": "Krzysztof Cieslak",
+  "license": "MIT",
+  "devDependencies": {
+    "bestzip": "^2.1.2"
+  }
+}
